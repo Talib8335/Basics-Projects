@@ -1,0 +1,649 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*start loader coading */
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.check{
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
+.loader-con{
+	width: 100%;
+	min-height: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 1;
+}
+
+.slide-left{
+	width: 50%;
+	min-height: 100%;
+	background-color: #F5F5F5;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 1;
+}
+
+.slide-right{
+	width: 50%;
+	min-height: 100%;
+	position: absolute;
+	right: 0;
+	top: 0;
+	background-color:#F5F5F5;
+	z-index: 1;
+}
+
+.loader{
+	position:absolute;
+	left: 50%;
+	top: 45%;
+	z-index: 1;
+}
+
+/* end loader coading */
+
+/*start mobile nav coading */
+
+#menu,.slicknav_menu,#desk_menu{
+	display: none;
+}
+
+@media screen and (max-width:992px)
+{
+	.slicknav_menu{
+		display: block;
+	}
+	.big_slider{
+	top:0;
+	z-index: -1;
+}
+
+}
+
+/*end mobile nav coading */
+
+/* start desktop nav coading */
+
+@media screen and (min-width:992px)
+{
+	#desk_menu{
+		display: block;
+		z-index: 1;
+	}
+	
+	.big_slider{
+	top: 50px;
+	z-index: -1;
+}
+	
+	/* start slider label */
+	.slider_label{
+      	
+	width: 100%;
+	height: 1080px;
+	float: left;
+	margin-top: -1030px;
+}
+
+.picone-header{
+	margin-top: 530px;
+	font-size: 50px;
+	font-family: "Do Hyeon",sans-serif;
+	color: #0F87ff;
+	display: none;
+}
+	
+.slider_label button{
+	width: 105px;
+	border: none;
+	padding: 15px;
+	font-weight: bold;
+	background-color: #ff0fd3;
+	display: none;
+
+}
+
+.slider_label button a{
+	text-decoration: none;
+}
+   
+	/* end slider label */ 
+    
+	/*start pictwo label*/
+	
+	.pictwo-header{
+		margin-top: 450px;
+		font-size: 80px;
+		font-family: "Jua",sans-serif;
+		color: #fff;
+		display: none;
+	}
+	
+	.pictwo-para{
+		font-family: "Do Hyeon",sans-serif;
+		font-size: 50px;
+		color: yellow;
+		display: none;
+	}
+	
+	.pictwo-btm{
+		background: red;
+		padding: 15px;
+		border: none;
+		box-shadow: 0px 0px 5px white;
+		display: none;
+	}
+	
+	.pictwo-btm a{
+		color: white;
+	}
+	
+	/* end pictwo label */
+}
+
+/* start mobile 320 coading */
+
+@media screen and (max-width:321px)
+{
+
+.slider_label{
+      	
+	width: 100%;
+	height: 180px;
+	float: left;
+	margin-top: -180px;
+	background: rgba(0,0,0,0.8);
+}
+
+.picone-header{
+	margin-top: 30px;
+	font-size: 30px;
+	font-family: "Do Hyeon",sans-serif;
+	color: #0F87ff;
+	display: none;
+}
+	
+.slider_label button{
+	width: 105px;
+	border: none;
+	padding: 15px;
+	font-weight: bold;
+	background-color: #ff0fd3;
+	display: none;
+
+}
+
+.slider_label button a{
+	text-decoration: none;
+}
+	
+		/*start pictwo label*/
+	
+	.pictwo-header{
+		margin-top: 20px;
+		font-size: 20px;
+		font-family: "Jua",sans-serif;
+		color: #fff;
+		display: none;
+	}
+	
+	.pictwo-para{
+		font-family: "Do Hyeon",sans-serif;
+		font-size: 20px;
+		color: yellow;
+		display: none;
+	}
+	
+	.pictwo-btm{
+		background: red;
+		border: none;
+		box-shadow: 0px 0px 5px white;
+		display: none;
+	}
+	
+	.pictwo-btm a{
+		color: white;
+	}
+	
+	/* end pictwo label */
+}
+/* end mobile 320 coading */
+
+#desk_menu{
+	padding: 15px;
+	margin: 0;
+	list-style: none;
+	width: 100%;
+	height: 70px;
+	box-shadow: 0px 5px 8px 0px rgba(0,0,0,0.2);
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: #fff;
+	box-sizing: border-box;
+}
+
+#desk_menu a{
+	text-decoration: none;
+}
+
+.brand_name{
+	float: left;
+}
+
+.brand_name li a{
+	color: #FF0E0F;
+	font-family:'Do Hyeon', sans-serif;
+	font-size: 28px;
+		
+}
+
+.top_right_nav{
+	float: right;
+}
+
+.top_right_nav li{
+	display: inline-block;
+	padding: 10px;
+	margin: 0px 12px;
+}
+
+.top_right_nav li a{
+	font-family: "Jua",sans-serif;
+	color: #323232;
+}
+
+.top_right_nav li:hover{
+	background-color:#FF0E0F;
+	border-radius: 5px;
+	transition: 1s;
+	
+}
+
+.top_right_nav li a:hover{
+	color: #fff;
+}
+/* end desktop nav coading */
+
+/*start project slider*/
+
+
+.proj-header{
+	text-align: center;
+	color: #323232;
+	font-family: "Do Hyeon",sans-serif;
+	font-size: 50px;
+	margin-top: 100px;
+}
+
+.slider{
+	width: 80%;
+	margin: 45px auto;
+	
+}
+
+.slick-slide{
+	margin: 0px 40px;
+}
+
+.slick-slide{
+	transition: all ease-in-out .3s;
+	opacity: .2;
+}
+
+
+.slick-slide img{
+	width: 90%;
+}
+
+.slick-prev:before,.slick-next:before{
+	background-color:red;
+		font-size: 50px;
+	opacity: 1;
+
+}
+
+.slick-prev{
+	margin-top: -10px;
+	margin-left:-2px;
+	
+}
+.slick-next{
+	margin-top: -10px;
+}
+
+.slick-active{
+	opacity: .2;
+}
+
+.slick-current{
+	opacity: 1;
+}
+
+
+/*end project slide*/
+
+.hire-con{
+	padding:50px 50px;
+}
+
+.about-hire{
+	width:50%;
+	height:500px;
+	float:left;
+	border:1px solid #ccc;
+}
+
+.hire-con img{
+	float:right
+}
+
+/* start about me */
+
+.about-me{
+	width:100%;
+	float:left;
+	margin:60px 0px;
+	background-color:#ffffff;
+
+	
+}
+
+.my-pic{
+	width:30%;
+	float:left;
+	padding: 20px 30px;
+	display: none;
+
+	
+
+}
+
+.about-text{
+	width:70%;
+	float:left;
+	padding:20px 80px;
+	margin:0;
+    display: none;
+
+
+}
+
+.aboutme-header,.web-design h2,.graphic-design h2,.online-mkt h2,.seo h2{
+	font-family:"Nunito",sans-serif;
+	margin-top:0;
+	margin-bottom:0;
+	color:#323232;
+
+}
+
+.web-design h2,.graphic-design h2,.online-mkt h2,.seo h2{
+	font-size:19px;
+
+
+}
+
+.web-design,.graphic-design,.online-mkt,.seo{
+	float:left;
+	margin-right:60px;
+	margin-bottom:20px;
+
+}
+
+.about-me p{
+	margin-top:1px;
+	color:#323232;
+	font-family:sans-serif;
+	text-align: justify;
+	line-height: 19.5px;
+}
+
+.about-skills{
+	width:40%;
+	float:left;
+	clear:left;
+	margin-left:5%;
+	margin-right:5%;
+	padding:30px 50px;
+	
+}
+
+.about-skills button{
+	padding:15px;
+	border:1px solid #ccc;
+	background:#00ff2a;
+	margin:10px 0px;
+}
+
+.about-skills button a{
+	text-decoration:none;
+	color:white;
+	font-weight:bold;
+}
+
+.skill-bar{
+	width:40%;
+	float:left;
+	margin-left:5%;
+	margin-right:5%;
+	padding:30px 50px;
+}
+
+.skill-bar h2{
+	font-family:"Nunito",sans-serif;
+	color:#323232;
+	padding:0;
+	margin:0;
+	font-size:18px;
+}
+
+.progress-bar{
+	width:100%;
+	height:25px;
+	background:white;
+	margin-top:2px;
+	margin-bottom:25px;
+	float:left;
+}
+
+.progress-one,.progress-two,.progress-three,.progress-four,.progress-five{
+	width:0%;
+	text-align:center;
+	padding:3px;
+	font-family:sans-serif;
+	font-size:15px;
+	color:white;
+}
+
+.progress-one{
+	background:#00ff2a;
+	border:1px solid #00ff2a;
+	
+}
+
+.progress-two{
+	background:Cyan;
+	border:1px solid Cyan;
+}
+
+.progress-three{
+	background:red;
+	border:1px solid red;
+}
+
+.progress-four{
+	background:blue;
+	border:1px solid blue;
+}
+
+.progress-five{
+	background:orange;
+	border:1px solid orange;
+}
+
+
+/* end about me */
+
+/* start people say*/
+
+.people-says{
+
+}
+
+.people-says h1{
+	text-align:center;
+	font-family:"Nunito",sans-serif;
+	font-size: 30px;
+}
+
+.people{
+	width:29%;
+	float:left;
+	border:1px solid #ccc;
+	margin:20px 25px;
+	padding:30px 20px;
+}
+
+.people img{
+	border-radius: 48%;
+	float:left;
+}
+
+.people-name{
+	float:left;
+	padding:10px 20px;
+}
+
+.people-name h2{
+	font-family:"Do Hyeon",sans-serif;
+	float:left;
+	margin:0;
+	font-size:30px;
+}
+
+.people-name small{
+	float:left;
+	clear:left;
+	font-family: sans-serif;
+}
+
+.people p{
+	float:left;
+	text-align: justify;
+	color:#323232;
+	font-family: "Nunito",sans-serif;
+}
+
+/* end people says */
+
+/* start contact */
+
+.contacts{
+	width:100%;
+	padding:35px 20px;
+	float:left;
+	background:url("../images/contatc-bg.jpg");
+	background-size:120% 80%;
+	background-position: bottom right;
+	background-repeat:no-repeat;
+	margin-top:60px;
+	background-color: #1E8EFF;
+
+
+
+}
+
+.contacts h1{
+	font-family:"Nunito",sans-serif;
+	font-size:40px;
+	color:white;
+	margin:0 3%;
+
+}
+
+.contacts img{
+	float:left;
+	clear:left;
+	margin-top:-20px;
+	margin-left:2.8%;
+	transform:rotateX(150deg);
+
+}
+
+.contacts-icon i{
+	float:left;
+	border:2px solid white;
+	width:100px;
+	height:100px;
+	text-align: center;
+	padding:25px 0px;
+	color:white;
+	font-size:50px;
+	margin-right:167px;
+	margin-top:-13px;
+	cursor:pointer;
+}
+
+.contacts-icon i:first-child{
+	clear:left;
+}
+
+.footer{
+	width:100%;
+	height:40px;
+	float:left;
+	background:white;
+	padding:9px;
+	font-weight: bold;
+	font-size:18px;
+	color:#323232;
+}
+
+.email{
+	float:left;
+}
+
+.num{
+	float:right;
+}
+
+/* end contact */
+
+/* start scroll top */
+.scrolltop{
+	position: fixed;
+	bottom: 40px;
+	right: 20px;
+	font-size: 30px;
+	background: white;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	border-radius: 48%;
+	padding: 8px;
+	color: #323232;
+	box-shadow: 0 0 5px grey;
+	display: none;
+
+}
+
+
+
+
+/* end scroll top*/
+
+
+
+
+
