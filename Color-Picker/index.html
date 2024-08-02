@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="css/jquery-ui.css">
+     <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+         
+    
+      <script
+          src="https://code.jquery.com/jquery-3.3.1.js"
+          integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+          crossorigin="anonymous">
+	</script>
+
+	<script>
+         window.jQuery || document.write("<script src='js/jquery.js'><\/script>");
+    </script>
+     <script src="js/jquery-ui.js"></script>
+    
+</head>
+<body>
+<div id="color-mixer">
+  <h1 style="text-align:center; font-family:sans-serif;"> COLOR MIXER</h1>
+  <label for="red" style="color: red;font-weight: bold">
+    RED<br>
+  <input id="red-input" maxlength="3" style="padding:10px;width: 80px;border:1px solid #ccc;box-shadow:0px 0px 3px #ddd;margin-bottom: 8px" name="color">
+  </label>
+
+  <div id="red"></div>
+
+   <label for="blue" style="color:blue;font-weight: bold">
+    BLUE<br>
+  <input id="blue-input" maxlength="3" style="padding: 10px;width: 80px;border:1px solid #ccc;box-shadow:0px 0px 3px #ddd;margin-bottom: 8px" name="color">
+  </label>
+
+  <div id="blue"></div>
+
+
+   <label for="green" style="color:green;font-weight: bold">
+    GREEN<br>
+  <input id="green-input" maxlength="3" style="padding: 10px;width: 80px;border:1px solid #ccc;box-shadow:0px 0px 3px #ddd;margin-bottom: 40px" name="color">
+  </label>
+
+  <div id="green"></div>
+
+  <div id="color-result"></div>
+
+  <div id="hex-result"></div>
+
+
+
+</div>
+<script src="js/effect.js"></script>
+</body>
+</html>
