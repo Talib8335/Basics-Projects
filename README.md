@@ -42,7 +42,7 @@ Build a responsive portfolio using HTML, CSS, JavaScript, and jQuery, along with
 
 ![Screenshot 2024-08-02 233048](https://github.com/user-attachments/assets/579b280e-4338-4594-8193-422a76009ad9)
 
-  ![Screenshot 2024-08-02 233215](https://github.com/user-attachments/assets/0a6d3527-5b70-4742-99da-84ccce9f2df0)         ![Screenshot 2024-08-02 234341](https://github.com/user-attachments/assets/869ad69d-cd79-4c3f-a847-985c3a111f12)
+  ![Screenshot 2024-08-02 233215](https://github.com/user-attachments/assets/0a6d3527-5b70-4742-99da-84ccce9f2df0)  ![Screenshot 2024-08-02 234341](https://github.com/user-attachments/assets/869ad69d-cd79-4c3f-a847-985c3a111f12)
 
 
 
