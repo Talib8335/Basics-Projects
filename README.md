@@ -28,8 +28,23 @@ This is a simple project where you can pick a color from the color palette and d
 ![Screenshot 2024-08-02 220711](https://github.com/user-attachments/assets/dd4a7739-bd0f-43d7-b377-ea152ac0f60d)
 
 ## jQUERY Delete Api
-In this project, I created an API that deletes content based on two modes: select mode or dragging mode. Depending on the selected mode, the API will handle the content deletion accordingly.
+In this project, I created an API that deletes content based on two modes: select mode or dragging mode. Depending on the chosen mode, the API will delete the content accordingly. Additionally, it includes a restore feature—by pressing the "Restore Deleted Item" button, you can recover any deleted items.
 
 ![Screenshot 2024-08-02 220631](https://github.com/user-attachments/assets/efa9962b-1a22-4794-99c8-11f3e02dae3f)
+
+## Text Editor 
+Build a basic text editor where you can write and format text. It includes functionalities for making selected content bold, italic, underlined, and more.
+
+![Screenshot 2024-08-02 232300](https://github.com/user-attachments/assets/617c0a2b-3fdb-4410-8410-64b2314b3bcc)
+
+## Responsive Portfolio 
+Build a responsive portfolio using HTML, CSS, JavaScript, and jQuery, along with a JavaScript library for the carousel functionality. The portfolio is fully responsive, utilizing CSS media queries to ensure it looks great on all devices.
+
+![Screenshot 2024-08-02 233048](https://github.com/user-attachments/assets/579b280e-4338-4594-8193-422a76009ad9)
+
+  ![Screenshot 2024-08-02 233215](https://github.com/user-attachments/assets/0a6d3527-5b70-4742-99da-84ccce9f2df0)         ![Screenshot 2024-08-02 234341](https://github.com/user-attachments/assets/869ad69d-cd79-4c3f-a847-985c3a111f12)
+
+
+
 
 
