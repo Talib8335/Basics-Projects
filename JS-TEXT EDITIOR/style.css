@@ -1,0 +1,85 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	padding: 0;
+	margin: 0;
+	background-color: #F5F5F5;
+}
+
+header{
+	width: 100%;
+	height: 140px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: #00D96A;
+}
+
+h1{
+	color: white;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+}
+
+button{
+	height:25px;
+	width: 100px;
+	margin:8px;
+	outline: none;;
+	border: 1px solid #ccc;
+	background-color: beige;
+	border-radius: 10px;
+
+		
+}
+
+button:hover{
+	background:hsla(93,96%,37%,1.00);
+}
+
+#page{
+	width: 70%;
+	height: 1200px;
+	background-color:white;
+	border: 1px solid #ccc;
+	margin: 148px auto;
+	padding: 10px;
+	box-sizing: border-box;
+	font-size: 22px;
+	
+}
+
+#page:focus{
+	outline: none;
+	
+	
+}
+
+footer{
+	
+	background: black;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: auto;
+	background-color: #00D96A;
+	color: white;
+	font-size: 30px;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	text-align: center;
+	padding: 8px;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
