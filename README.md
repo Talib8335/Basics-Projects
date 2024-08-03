@@ -3,7 +3,10 @@ Some basic Javascript and JQuery Projects.
 This repository contains basic JavaScript and jQuery projects. These projects were built as part of a learning process to gain a better understanding of JavaScript and jQuery concepts and logic. Building small projects is an effective way to learn, so here is a list of projects with screenshots presented below.
 
 ## Tech Stack
-Html, Javascript, Css, JQuery
+![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![jQuery](https://img.shields.io/badge/jQuery-0769AD?style=flat&logo=jquery&logoColor=white)
 
 ## Screenshots :
 
@@ -38,7 +41,10 @@ Build a basic text editor where you can write and format text. It includes funct
 ![Screenshot 2024-08-02 232300](https://github.com/user-attachments/assets/617c0a2b-3fdb-4410-8410-64b2314b3bcc)
 
 ## Responsive Portfolio 
-Build a responsive portfolio using HTML, CSS, JavaScript, and jQuery, along with a JavaScript library for the carousel functionality. The portfolio is fully responsive, utilizing CSS media queries to ensure it looks great on all devices.
+Build a responsive portfolio using ![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat&logo=html5&logoColor=white),
+![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat&logo=css3&logoColor=white),
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black),
+![jQuery](https://img.shields.io/badge/jQuery-0769AD?style=flat&logo=jquery&logoColor=white), along with a JavaScript library for the carousel functionality. The portfolio is fully responsive, utilizing CSS media queries to ensure it looks great on all devices.
 
 ![Screenshot 2024-08-02 233048](https://github.com/user-attachments/assets/579b280e-4338-4594-8193-422a76009ad9)
 
