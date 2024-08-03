@@ -1,56 +1,56 @@
 # Basics-Projects
-Some basic Javascript and JQuery Projects.
-This repository contains basic JavaScript and jQuery projects. These projects were built as part of a learning process to gain a better understanding of JavaScript and jQuery concepts and logic. Building small projects is an effective way to learn, so here is a list of projects with screenshots presented below.
+
+This repository contains basic JavaScript and jQuery projects built as part of a learning process. These small projects are designed to provide a better understanding of JavaScript and jQuery concepts and logic.
 
 ## Tech Stack
+
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
 ![jQuery](https://img.shields.io/badge/jQuery-0769AD?style=flat&logo=jquery&logoColor=white)
 
-## Screenshots :
+## Snapshort
 
-## Color Mixer
-This project is a color mixer that allows you to mix RGB colors using different hex values. It generates the corresponding hex color for the mixed result.
+### Color Mixer
 
-![Screenshot 2024-08-02 222954](https://github.com/user-attachments/assets/b1c6b24e-925b-4d9b-a387-7ed73e358a93)
+A color mixer that allows you to mix RGB colors using different hex values and generates the corresponding hex color for the mixed result.
 
-## Number Picker
-This is a small game project where you need to pick numbers and place them in their correct positions to complete the game.
+![Color Mixer](https://github.com/user-attachments/assets/b1c6b24e-925b-4d9b-a387-7ed73e358a93)
 
-![Screenshot 2024-08-02 221058](https://github.com/user-attachments/assets/b5ce565c-10f5-4bd4-bc78-11884f8ba869)
+### Number Picker
 
-## Pick Up Fruit
-This is a small game project where you need to pick fruits and flowers from the baskets and place them in their correct locations to win and complete the game.
+A small game where you pick numbers and place them in their correct positions to complete the game.
 
-![Screenshot 2024-08-02 220439](https://github.com/user-attachments/assets/a1227c98-0d6f-4e34-bb6a-f6057a7a81bc)
+![Number Picker](https://github.com/user-attachments/assets/b5ce565c-10f5-4bd4-bc78-11884f8ba869)
 
-## Drag Color
-This is a simple project where you can pick a color from the color palette and drag it onto the text within a box to change the text color to the selected one.
+### Pick Up Fruit
 
-![Screenshot 2024-08-02 220711](https://github.com/user-attachments/assets/dd4a7739-bd0f-43d7-b377-ea152ac0f60d)
+A game where you pick fruits and flowers from baskets and place them in their correct locations to win and complete the game.
 
-## jQUERY Delete Api
-In this project, I created an API that deletes content based on two modes: select mode or dragging mode. Depending on the chosen mode, the API will delete the content accordingly. Additionally, it includes a restore feature—by pressing the "Restore Deleted Item" button, you can recover any deleted items.
+![Pick Up Fruit](https://github.com/user-attachments/assets/a1227c98-0d6f-4e34-bb6a-f6057a7a81bc)
 
-![Screenshot 2024-08-02 220631](https://github.com/user-attachments/assets/efa9962b-1a22-4794-99c8-11f3e02dae3f)
+### Drag Color
 
-## Text Editor 
-Build a basic text editor where you can write and format text. It includes functionalities for making selected content bold, italic, underlined, and more.
+Pick a color from the palette and drag it onto the text within a box to change the text color to the selected one.
 
-![Screenshot 2024-08-02 232300](https://github.com/user-attachments/assets/617c0a2b-3fdb-4410-8410-64b2314b3bcc)
+![Drag Color](https://github.com/user-attachments/assets/dd4a7739-bd0f-43d7-b377-ea152ac0f60d)
 
-## Responsive Portfolio 
-Build a responsive portfolio using ![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat&logo=html5&logoColor=white),
-![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat&logo=css3&logoColor=white),
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black),
-![jQuery](https://img.shields.io/badge/jQuery-0769AD?style=flat&logo=jquery&logoColor=white), along with a JavaScript library for the carousel functionality. The portfolio is fully responsive, utilizing CSS media queries to ensure it looks great on all devices.
+### jQuery Delete API
 
-![Screenshot 2024-08-02 233048](https://github.com/user-attachments/assets/579b280e-4338-4594-8193-422a76009ad9)
+An API that deletes content based on select or dragging mode, with a restore feature to recover deleted items.
 
-  ![Screenshot 2024-08-02 233215](https://github.com/user-attachments/assets/0a6d3527-5b70-4742-99da-84ccce9f2df0)  ![Screenshot 2024-08-02 234341](https://github.com/user-attachments/assets/869ad69d-cd79-4c3f-a847-985c3a111f12)
+![jQuery Delete API](https://github.com/user-attachments/assets/efa9962b-1a22-4794-99c8-11f3e02dae3f)
 
+### Text Editor
 
+A basic text editor that allows you to write and format text with functionalities for bold, italic, underlined, and more.
 
+![Text Editor](https://github.com/user-attachments/assets/617c0a2b-3fdb-4410-8410-64b2314b3bcc)
 
+### Responsive Portfolio
 
+A responsive portfolio built with HTML, CSS, JavaScript, and jQuery. It includes a carousel functionality and is designed to look great on all devices.
+
+![Responsive Portfolio](https://github.com/user-attachments/assets/579b280e-4338-4594-8193-422a76009ad9)
+![Responsive Portfolio 2](https://github.com/user-attachments/assets/0a6d3527-5b70-4742-99da-84ccce9f2df0)
+![Responsive Portfolio 3](https://github.com/user-attachments/assets/869ad69d-cd79-4c3f-a847-985c3a111f12)
